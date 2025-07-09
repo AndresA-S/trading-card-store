@@ -9,7 +9,6 @@ export default function Survey() {
 
   const handleSubmit = e => {
     e.preventDefault();
-    // In a real app you'd send this data to your server
     alert('Thank you for your feedback!');
     navigate('/');
   };
