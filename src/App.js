@@ -13,15 +13,15 @@ function App() {
   return (
     <CartProvider>
       <Router>
-        <header style={{ padding: '1rem', borderBottom: '1px solid #ccc' }}>
-          <nav>
-            <Link to="/" style={{ marginRight: '1rem' }}>Home</Link>
-            <Link to="/shop" style={{ marginRight: '1rem' }}>Shop</Link>
-            <Link to="/checkout" style={{ marginRight: '1rem' }}>Checkout</Link>
+        <header className="container" style={{ paddingTop: 'var(--spacing-md)', paddingBottom: 'var(--spacing-md)', borderBottom: '1px solid var(--color-muted-bg)' }}>
+          <nav className="flex" style={{ gap: 'var(--spacing-md)' }}>
+            <Link to="/">Home</Link>
+            <Link to="/shop">Shop</Link>
+            <Link to="/checkout">Checkout</Link>
             <Link to="/survey">Survey</Link>
           </nav>
         </header>
-        <main style={{ padding: '1rem' }}>
+        <main className="container" style={{ paddingTop: 'var(--spacing-lg)', paddingBottom: 'var(--spacing-lg)' }}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/shop" element={<Shop />} />
