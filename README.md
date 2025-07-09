@@ -1,4 +1,6 @@
-SEG3125 - Assignment 4, Student # 300081300
+## SEG3125 - Analysis and Design of User Interfaces - Assignment 4 
+
+Student # 300081300
 
 A simple React-based e-commerce demo for buying and browsing trading cards, featuring:
 
